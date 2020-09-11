@@ -1,10 +1,10 @@
-package kgw.ssafy.study;
+package problems.programmers;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-public class PROGRAMMERS_뉴스클러스터링 {
+public class 뉴스클러스터링_2018_KAKAO_BLIND {
 
 	public int solution(String str1, String str2) {
 		int answer = 0;
@@ -67,6 +67,6 @@ public class PROGRAMMERS_뉴스클러스터링 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new PROGRAMMERS_뉴스클러스터링().solution("aa1+aa2","AAAA12" ));
+		System.out.println(new 뉴스클러스터링_2018_KAKAO_BLIND().solution("aa1+aa2","AAAA12" ));
 	}
 }

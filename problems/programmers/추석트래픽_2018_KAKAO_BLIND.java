@@ -1,4 +1,4 @@
-package kgw.ssafy.study;
+package problems.programmers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ class Request{
 	}
 }
 
-public class PROGRAMMERS_추석트래픽 {
+public class 추석트래픽_2018_KAKAO_BLIND {
 	public int solution(String[] lines) {
         int answer = 0;
         
@@ -46,6 +46,6 @@ public class PROGRAMMERS_추석트래픽 {
     }
 	
 	public static void main(String[] args) {
-		System.out.println(new PROGRAMMERS_추석트래픽().solution(new String[] {"2016-09-15 01:00:04.001 2.0s", "2016-09-15 01:00:07.000 2s"}));
+		System.out.println(new 추석트래픽_2018_KAKAO_BLIND().solution(new String[] {"2016-09-15 01:00:04.001 2.0s", "2016-09-15 01:00:07.000 2s"}));
 	}
 }

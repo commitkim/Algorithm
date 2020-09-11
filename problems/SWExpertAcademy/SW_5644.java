@@ -1,4 +1,4 @@
-package kgw.ssafy.study;
+package problems.SWExpertAcademy;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
